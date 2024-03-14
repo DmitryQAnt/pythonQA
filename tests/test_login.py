@@ -1,6 +1,6 @@
-from src.pages.login_page import LoginPage
-from src.base_test import BaseTest
-from src.utilities.test_data import TestData
+from pages.login_page import LoginPage
+from tests.base_test import BaseTest
+from utilities.test_data import TestData
 
 
 class TestLogin(BaseTest):

@@ -1,6 +1,6 @@
-from src.pages.base_page import BasePage
-from src.pages.my_account_page import MyAccountPage
-from src.utilities.locators import NewUserRegistrationFields
+from pages.base_page import BasePage
+from pages.my_account_page import MyAccountPage
+from utilities.locators import NewUserRegistrationFields
 
 class LoginPage(BasePage):
 

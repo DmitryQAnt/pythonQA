@@ -2,7 +2,7 @@ import time
 
 import pytest
 from selenium import webdriver
-from src.utilities.test_data import TestData
+from utilities.test_data import TestData
 
 @pytest.fixture
 def initialize_driver():
